@@ -1,0 +1,228 @@
+:root {
+    --mainColor: #007bbd;
+}
+
+.banner{
+    height: 56rem;
+}
+
+.consult-section{
+    margin: 3rem 0;
+}
+.consult{
+    display: flex;
+    justify-content: space-between;
+}
+.consult > div{
+    height: 30rem;
+}
+.consult-lf{
+    width: 35%;
+    border: 1px solid #dadada;
+    border-right: 0;
+    padding: 2.5rem 3rem;
+}
+.consult-lf-title{
+    display: flex;
+    justify-content: space-between;
+}
+.consult-lf-title h3{
+    font-size: 1.7rem;
+    color: #00a0e9;
+}
+.consult-lf-title span{
+    cursor: pointer;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    color: #fff;
+    background-color: #cfcfcf;
+}
+.consult-lf-content h4{
+    width: 25rem;
+    font-size: 1.5rem;
+    margin: 3rem 0;
+    font-weight: normal;
+}
+.consult-lf-content p{
+    font-size: 1.4rem;
+    color: #999;
+}
+.page-dec,.page-add{
+    cursor: pointer;
+    font-weight: bolder;
+    color: #686868;
+}
+.currentPage{
+    color: #002f80;
+    font-weight: bolder;
+    font-size: 1.6rem;
+}
+.totalPage{
+    color: #999;
+    font-size: 1.6rem;
+}
+.consult-lf-pagenation{
+    margin-top: 3rem;
+}
+
+.consult-ct{
+    width: 30%;
+    background: url(../images/index/consult-ct.jpg) no-repeat;
+    background-size: cover;
+    padding: 2.5rem;
+}
+.consult-ct-title{
+    font-size: 1.7rem;
+    color: #fff;
+}
+.consult-ct-tilte-en{
+    font-size: 1.7rem;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 1rem;
+}
+.consult-ct-nums{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10rem;
+    color: #fff;
+}
+.consult-ct-num{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+}
+.consult-ct-num p{
+    font-size: 1.8rem;
+    font-weight: bolder;
+}
+.consult-line{
+    width: 2rem;
+    height: 0.1rem;
+    margin: 1rem 0;
+    background-color: #fff;
+}
+.consult-ct-num span{
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+.consult-rt{
+    width: 35%;
+}
+.consult-rt-human{
+    cursor: pointer;
+    padding: 2.5rem;
+    width: 100%;
+    height: 50%;
+    background: url(../images/index/consult-rt1.jpg) no-repeat;
+    background-size: cover;
+}
+.consult-rt-culture{
+    cursor: pointer;
+    padding: 2.5rem;
+    width: 100%;
+    height: 50%;
+    background: url(../images/index/consult-rt2.jpg);
+    background-size: cover;
+}
+.consult-rt-title{
+    font-size: 1.7rem;
+    color: #fff;
+}
+.consult-rt-title-en{
+    font-size: 1.7rem;
+    color: #007dd5;
+    text-transform: uppercase;
+    margin-top: 1rem;
+}
+
+
+
+.ability-section{
+    margin: 3rem 0;
+}
+.ability{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+    border-top: .0625rem solid #dadada;
+    border-bottom: .0625rem solid #dadada;
+}
+.ability-item{
+    padding: 0 10rem;
+}
+.ability-item:nth-child(2){
+    border-left: .0625rem solid #dadada;
+    border-right: .0625rem solid #dadada;
+}
+.ability-info h5{
+    font-size: 1.8rem;
+    color: #666;
+}
+.ability-info p{
+    color: #999;
+    font-size: 1.4rem;
+    margin-top: 1rem;
+}
+
+
+.case-hd{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.case-hd-title{
+    display: flex;
+}
+.case-hd-title-ch{
+    font-size: 2.4rem;
+    color: #666;
+}
+.case-hd-title-en{
+    font-size: 2.4rem;
+    color: rgba(102, 102, 102,0.2);
+    text-transform: uppercase;
+    margin-left: 1rem;
+}
+.case-hd-detail{
+    cursor: pointer;
+    color: #007bbd;
+}
+.case-con{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.case-item{
+    position: relative;
+    cursor: pointer;
+    width: 49%;
+    height: 20rem;
+    margin-top: 1.5rem;
+}
+.case-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.case-item .mask{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(102, 102, 102,0.3);
+}
+.case-item h4{
+    position: absolute;
+    bottom: 1.5rem;
+    left: 1.5rem;
+    color: #fff;
+    font-size: 1.5rem;
+}

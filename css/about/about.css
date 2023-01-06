@@ -1,0 +1,168 @@
+:root {
+    --mainColor: #007bbd;
+}
+
+.banner-section{
+    width: 100%;
+    height: 56rem;
+    background: url(../../images/about/aboutBanner.jpg) no-repeat;
+    background-size: cover;
+}
+.banner{
+    position: relative;
+    width: 100%;
+    height: 56rem;
+}
+.banner-title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.banner-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+.banner-title-zh{
+    font-size: 2.4rem;
+    font-weight: bolder;
+    text-align: center;
+}
+.banner-title-en{
+    text-align: center;
+    font-size: 6.25rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.banner-line{
+    width: 5rem;
+    height: 0.4rem;
+    background-color: #fff;
+}
+.tab{
+    width: 100%;
+    height: 5rem;
+    background-color: #fff;
+    position: absolute;
+    bottom: -2.5rem;
+    left: 0;
+    border-bottom: .0625rem solid #eee;
+}
+.tab-list{
+    display: flex;
+    height: 5rem;
+    justify-content: center;
+    align-items: center;
+}
+.tab-list li{
+    padding: 0 1.5rem;
+    border-right: .0625rem solid #666;
+}
+.tab-list li:last-child{
+    border-right: 0;
+}
+.tab-list li a{
+    position: relative;
+    display: block;
+    color: #666;
+}
+.tab-list li.current a{
+    color: #cd0000;
+}
+.tab-list li.current .tab-line{
+    display: block;
+}
+.tab-line{
+    display: none;
+    position: absolute;
+    top: 3rem;
+    left: 0;
+    width: 100%;
+    height: 0.3rem;
+    background-color: #cd0000;
+}
+
+.brief-section{
+    padding: 8rem;
+}
+.brief{
+    display: flex;
+    justify-content: space-between;
+}
+.brief-lf{
+    width: 48%;
+    padding-top: 3rem;
+    height: 30rem;
+}
+.brief-lf-con{
+    height: 19rem;
+    margin-top: 4rem;
+    overflow: auto;
+    padding: 0 2rem;
+}
+.brief-rt{
+    width: 48%;
+    height: 30rem;
+}
+.brief-lf-title{
+    position: relative;
+}
+.brief-lf-con-title h4{
+    color: #666;
+    font-size: 2rem;
+}
+.brief-lf-con-title p{
+    font-size: 1.4rem;
+    color: #999;
+}
+.brief-lf-title-ch{
+    font-size: 3rem;
+    color: #666;
+}
+.brief-lf-title-en{
+    position: absolute;
+    z-index: -1;
+    top: -8rem;
+    left: 1rem;
+    font-size: 10rem;
+    color: #f1f1f1;
+    text-transform: uppercase;
+}
+.brief-lf-con-content{
+    margin-top: 2.4rem;
+    color: #666;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
+.brief-rt-video{
+    width: 100%;
+    height: 100%;
+}
+.brief-rt-video img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.history-section{
+    width: 100%;
+    height: 56.25rem;
+    background: url(../../img/banner1.jpg) no-repeat;
+    background-size: cover;
+}
+
+.qualification-section{
+    width: 100%;
+    height: 62.5rem;
+    background: url(../../img/banner2.jpg) no-repeat;
+    background-size: cover;
+}
+.certificate-section{
+    width: 100%;
+    height: 68.75rem;
+    background: url(../../img/banner3.jpg) no-repeat;
+    background-size: cover;
+}

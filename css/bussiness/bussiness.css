@@ -1,0 +1,6 @@
+.banner-section{
+    width: 100%;
+    height: 350.5rem;
+    background: url(../../img/bannerbus.jpg) no-repeat;
+    background-size: cover;
+}

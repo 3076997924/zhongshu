@@ -1,0 +1,172 @@
+.container {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+:root {
+    --mainColor: #007bbd;
+}
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+body {
+    overflow-x: hidden;
+}
+
+.header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-top: 5rem;
+}
+
+.nav{
+    display: flex;
+    align-items: flex-end;
+    height: 4rem;
+}
+.nav li{
+    margin: 0 2rem;
+}
+.nav li a{
+    font-size: 1.6rem;
+}
+
+.headerIcons{
+    display: flex;
+}
+.headerIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3.5rem;
+    height: 3.5rem;
+    border: 0.2rem solid #fff;
+    border-radius: 50%;
+    margin: 0 1rem;
+}
+.headerIcon span{
+    cursor: pointer;
+    color: #fff;
+}
+.headerIcon .header_search{
+    font-size: 2.2rem;
+}
+.headerIcon .header_yingyu{
+    font-size: 2.8rem;
+}
+.headerIcon .header_youxiang{
+    font-size: 2rem;
+}
+
+
+.footer-section{
+    margin-top: 4rem;
+    width: 100%;
+    padding-top: 5rem;
+    background-color: var(--mainColor);
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3rem;
+    border-bottom: .0625rem solid rgba(255, 255, 255, 0.6);
+}
+.contact-ch{
+    font-size: 3.2rem;
+    color: #fff;
+}
+.contact-en{
+    font-size: 3.2rem;
+    color: #fff;
+    text-transform: uppercase;
+}
+.footer-lf p{
+    margin-top: 2rem;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-ct{
+    padding-top: 4.5rem;
+}
+.footer-ct p{
+    color: #fff;
+    font-size: 1.6rem;
+    line-height: 2;
+    font-weight: bolder;
+}
+.erweicode{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.erweicode img{
+    width: 10rem;
+    height: 10rem;
+}
+.erweicode p{
+    text-align: center;
+    margin-top: 1rem;
+    color: #fff;
+}
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8rem;
+}
+.copyright p{
+    font-size: 1.6rem;
+    color: rgba(255, 255, 255, 0.6);
+}
+.links{
+    position: relative;
+    width: 15rem;
+    height: 3rem;
+    border: .0625rem solid rgba(255, 255, 255, 0.6);
+    position: relative;
+}
+.links input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: 0;
+    color: rgba(255, 255, 255, 0.6);
+    padding-left: 0.4rem;
+}
+.links input::placeholder{
+    color: rgba(255, 255, 255, 0.6);
+}
+.links span{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 1rem;
+    font-size: 0.8rem;
+    transform: translateY(-50%);
+    color: #fff;
+}
+
+@media screen and (max-width: 991px) {
+    html {
+      font-size: 55%;
+    }
+}
+  @media screen and (max-width: 500px) {
+    html {
+      font-size: 50%;
+    }
+}
+@media screen and (max-width: 420px) {
+    html {
+      font-size: 45%;
+    }
+}
